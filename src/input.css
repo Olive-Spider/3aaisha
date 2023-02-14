@@ -5,3 +5,31 @@
 body{
     background-color: black;
 }
+p{
+    overflow: hidden; 
+    display: inline-block; /* make text display inline */
+    white-space: nowrap; /* prevent line breaks in text */
+    animation: slide 3s; /* apply animation */
+
+}
+
+button{
+    /* margin-top: 40px;
+    margin-left: 330px; */
+    overflow: hidden; 
+    display: inline-block; /* make text display inline */
+    white-space: nowrap; /* prevent line breaks in text */
+    animation: slide 3s; /* apply animation */
+}
+button img {
+    text-align: center;
+    width: 200px; /* set image width */
+    height: 200px; /* set image height */
+    
+  }
+
+@keyframes slide {
+    0% { transform: translateX(0); } /* start position */
+    10% { transform: translateX(-40%); } /* end position */
+  }
+
