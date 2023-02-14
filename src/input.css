@@ -5,6 +5,7 @@
 body{
     background-color: black;
 }
+
 p{
     overflow: hidden; 
     display: inline-block; /* make text display inline */
