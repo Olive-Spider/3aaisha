@@ -517,6 +517,11 @@ video {
   position: relative;
 }
 
+.mx-20 {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -525,6 +530,11 @@ video {
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .mt-6 {
@@ -549,6 +559,10 @@ video {
 
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .rounded {
@@ -578,6 +592,20 @@ video {
   line-height: 2rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
 .font-extrabold {
   font-weight: 800;
 }
@@ -602,7 +630,7 @@ body{
 }
 
 .logo {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   display: block;
   height: 165px;
   width: 350px;
@@ -678,10 +706,6 @@ button img {
   /* set image height */
 }
 
-button :hover{
-  transform: scale(1.5);
-}
-
 footer img {
   margin-top: 10px;
   height: 80px;
@@ -700,8 +724,23 @@ footer img {
   margin: 20px;
 }
 
+.sliding a :hover {
+  color: whitesmoke;
+  transform: scale(1.2);
+}
+
 a :hover {
   color: whitesmoke;
+  transform: scale(1.3);
+}
+
+.samples img{
+  border-radius: 40px;
+  margin: 30px;
+  /* align-items: center; */
+  /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
 }
 
 #contact{
