@@ -6,6 +6,53 @@ body{
     background-color: black;
 }
 
+.logo {
+    background-color: antiquewhite;
+    display: block;
+    height: 165px;
+    width: 350px;
+}
+
+.heenalogo {
+    height: 150px;
+    width: 150px;
+    border-radius: 9999px;
+    display: block;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+/* .menu h1 {
+    margin-left: 40px;
+    margin-right: 40px;
+} */
+
+.menu ul {
+    margin-right: 20px;
+    position: relative;
+    display: inline-flexbox;
+    justify-content: flex-end;
+}
+
+.menu li {
+    display: flex;
+    margin: 15px;
+}
+
+li {
+    --tw-bg-opacity: 1;
+    background-color: rgb(211 175 55 / var(--tw-bg-opacity));
+    border-top-right-radius: 0.5rem;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+li :hover{
+    color: whitesmoke;
+}
+
 p{
     overflow: hidden; 
     display: inline-block; /* make text display inline */
@@ -29,6 +76,10 @@ button img {
     
   }
 
+  button :hover{
+    transform: scale(1.5);
+  }
+
   footer img {
     margin-top: 10px;
     height: 80px;
@@ -39,8 +90,57 @@ button img {
     margin-right: auto;
   }
 
+  .icons {
+    font-size: 54px;
+  }
+
+  .icons i {
+    margin: 20px;
+  }
+
+  a :hover {
+   color: whitesmoke;
+  }
+
+  #contact{
+    margin-top: 50px;
+  }
 @keyframes slide {
     0% { transform: translateX(0); } /* start position */
     10% { transform: translateX(-40%); } /* end position */
   }
+
+@media (max-width: 200px){
+    .logo {
+        display: block;
+        height: 165px;
+        width: 155px;
+    }
+    
+    .heenalogo {
+        height: 100px;
+        width: 150px;
+        border-radius: 9999px;
+        display: block;
+        margin-left: 10px;
+        margin-top: 3px;
+    }
+}
+@media (min-width: 200px){
+    .logo {
+        display: block;
+        height: 110px;
+        width: 550px;
+    }
+    
+    .heenalogo {
+        height: 100px;
+        width: 100px;
+        border-radius: 9999px;
+        display: block;
+        margin-left: 10px;
+        margin-top: 3px;
+    }
+    
+}
 

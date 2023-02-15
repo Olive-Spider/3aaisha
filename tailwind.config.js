@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,css,js}"],
   theme: {
+    fontFamily: {
+      'sans': ['Kanit'],
+    },
     screens: {
       sm: '480px',
       md: '768px',
