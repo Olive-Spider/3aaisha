@@ -527,6 +527,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.block {
+  display: block;
+}
+
 .inline {
   display: inline;
 }
@@ -617,6 +621,16 @@ button img {
   /* set image width */
   height: 200px;
   /* set image height */
+}
+
+footer img {
+  margin-top: 10px;
+  height: 80px;
+  width: 80px;
+  border-radius: 9999px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @keyframes slide {
