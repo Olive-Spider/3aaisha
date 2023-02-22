@@ -9,10 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <!-- Home Page -->
 <header>
+    <div class="back text-gold mt-5 ml-5">
+        <button class="bg-gold text-black font-semibold"><a href="/src/calligraphy.html">Go Back</a></button>
+    </div>
     <div class="sliding">
         <h1 class="text-2xl text-gold font-extrabold text-center sm:text-3xl">
             <br> <p>Hi There!&#128075;</p> </br>
@@ -22,19 +26,43 @@
     
         <!-- Art and Heena Buttons -->    
         <div class="text-center mt-6 sm:break-before-auto">
-        <a href="/src/calligraphy.html">
-            <button class="bg-white hover:bg-black mx-4 my-4 text-gold font-semibold border border-white rounded shadow">
+            <button onclick="showText()" class="bg-white hover:bg-black mx-4 my-4 text-gold font-semibold border border-white rounded shadow">
                 <img src="/Calligraphy-logo.png" alt="Calligraphy Logo">
             </button>
-        </a>
-        <a href="/src/heena.html">
-            <button class="bg-white hover:bg-black mx-4 my-4 text-gold font-semibold border border-white rounded shadow">
+
+            <div class="text-white" id="myText" style="display:none">
+                <h3 class="text-center ml-20 mr-20">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione est magnam assumenda debitis totam ut iusto quisquam repudiandae deserunt. Sequi est dolorem molestias, debitis quia rem quasi impedit. Voluptatum, aliquid.
+                </h3>
+            </div>
+
+            <button onclick="showText1()" class="bg-white hover:bg-black mx-4 my-4 text-gold font-semibold border border-white rounded shadow">
                 <img src="/heenalogo.png" alt="Calligraphy Logo">
             </button>
-        </a>
+
+            <div class="text-white" id="myOtherText" style="display:none">
+                <h3 class="text-center ml-20 mr-20">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quia iure quo ducimus necessitatibus mollitia, blanditiis exercitationem debitis impedit. Ducimus, sit accusamus cupiditate architecto expedita quas asperiores eos excepturi modi.
+                </h3>
+            </div>
         </div>
     </div>
 </header>
+
+<!-- Contact -->
+<div id="contact">
+    <div class="text-gold text-center">
+        <h2 class="text-2xl font-semibold"> For More Information, Kindly Reach Us On: </h2>
+        <div class="icons"> 
+            <a href="https://wa.me/254790965568?text=I'm%20interested%20in%20your%20services"><i class="fa fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/3aaisha_calligraphy/"><i class="fa fa-instagram"></i></a>
+            <a href="tel:254790965568"><i class="fa fa-phone"></i></a>
+            <a href="mailto: aysheromar97@gmail.com"><i class="fa fa-envelope"></i></a>
+        </div>
+    </div>
+</div>
+
+
 
 <!-- Footer -->
 <div id="footer">

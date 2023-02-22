@@ -10,7 +10,6 @@
 
 body{
     background-color: black;
-
 }
 
 .row{
@@ -26,7 +25,8 @@ body{
 .section-title h1{
     display: inline-block;
     font-size: 35px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    text-decoration: underline;
 }
 
 .text-center{
@@ -55,8 +55,17 @@ body{
 .portfolio .filter-buttons ul li{
     display: inline-block;
     margin: 0px 8px;
+    cursor: pointer;
 }
 
+.portfolio .filter-buttons ul li:hover{
+    color: antiquewhite;
+    text-decoration: underline;
+}
+.back button{
+    border-radius: 10px;
+    padding: 8px;
+}
 .logo {
     /* background-color: antiquewhite; */
     display: block;

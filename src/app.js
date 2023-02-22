@@ -18,9 +18,19 @@ for (let i = 0; i < filterButtons.length; i++) {
             }
             if (target == "all"){
                 items[k].style.display = "block";
-                
+
             }
         }
     })
 
+}
+
+function showText() {
+  var text = document.getElementById("myText");
+  text.style.display = "block";
+}
+
+function showText1() {
+  var text = document.getElementById("myOtherText");
+  text.style.display = "block";
 }
