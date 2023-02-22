@@ -13,6 +13,50 @@ body{
 
 }
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-title{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.section-title h1{
+    display: inline-block;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.section-title h1::before{
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 32%;
+}
+
+.portfolio .filter-buttons{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.portfolio .filter-buttons ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.portfolio .filter-buttons ul li{
+    display: inline-block;
+    margin: 0px 8px;
+}
+
 .logo {
     /* background-color: antiquewhite; */
     display: block;
@@ -46,7 +90,7 @@ body{
     margin: 15px;
 }
 
-li {
+/* li {
     --tw-bg-opacity: 1;
     background-color: rgb(211 175 55 / var(--tw-bg-opacity));
     border-top-right-radius: 0.5rem;
@@ -54,11 +98,11 @@ li {
     color: black;
     font-weight: bold;
     font-size: large;
-}
+} */
 
-li :hover{
+/* li :hover{
     color: whitesmoke;
-}
+} */
 
 p{
     overflow: hidden; 
