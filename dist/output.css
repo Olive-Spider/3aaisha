@@ -768,7 +768,8 @@ p{
   /* make text display inline */
   white-space: nowrap;
   /* prevent line breaks in text */
-  /* animation: slide 3s; apply animation */
+  animation: slide 3s;
+  /* apply animation */
 }
 
 button{
@@ -779,7 +780,8 @@ button{
   /* make text display inline */
   white-space: nowrap;
   /* prevent line breaks in text */
-  /* animation: slide 3s; apply animation */
+  animation: slide 3s;
+  /* apply animation */
 }
 
 button img {
